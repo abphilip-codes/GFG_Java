@@ -1,1 +1,1 @@
-# GeeksForGeeks: Daily Challenges
+# GeeksForGeeks: Python
