@@ -1,3 +1,4 @@
+package M1;
 /* This is a simple Java program.
    FileName : "HelloWorld.java". */
 class HelloWorld
