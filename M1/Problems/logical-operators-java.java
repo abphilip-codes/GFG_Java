@@ -40,13 +40,13 @@ class GFG6 {
 		    boolean b = sc.nextBoolean();
 		    
 		    //creating an object of class Geeks
-		    Geeks g = new Geeks();
+		    Geeks6 g = new Geeks6();
 		    
 		    //calling the method logicOp() 
 		    //and passing a,b as arguments
 		    g.logicOp(a, b);
 		    System.out.println();
 		}
-        sc.close()
+        sc.close();
 	}
 }  // } Driver Code Ends
