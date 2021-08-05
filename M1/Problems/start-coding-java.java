@@ -1,5 +1,3 @@
-// https://practice.geeksforgeeks.org/problems/start-coding-java
-
 // { Driver Code Starts
 //Initial Template for Java
 
@@ -7,7 +5,7 @@
 //User function Template for Java
 
 package Problems;
-class Geeks{
+class Geeks0{
     
     // Function to print hello
     void printHello(){
@@ -20,12 +18,12 @@ class Geeks{
 
 // { Driver Code Starts.
 
-class GfG{
+class GfG0{
     
     public static void main(String args[]){
        
        //Creating an Object of Class Geeks
-        Geeks g = new Geeks();
+        Geeks0 g = new Geeks0();
         
         //Calling printHello() function of the Class Geeks
         g.printHello();
