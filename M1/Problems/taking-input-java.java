@@ -2,18 +2,16 @@
 //Initial Template for Java
 
 /*package whatever //do not write package name here */
-
-import java.io.*;
+package Problems;
 import java.util.*;
-
 
  // } Driver Code Ends
 //User function Template for Java
 
-class Geeks{
+class Geeks2{
     
     // Function to take input using Scanner class
-    static void IOFunction(){
+    void IOFunction(){
         Scanner sc = new Scanner(System.in);
 		int t = sc.nextInt();
 		
@@ -26,11 +24,11 @@ class Geeks{
 		    System.out.println(c);
 		    byte d = sc.nextByte();
 		    System.out.println(d);
-		    String temp = sc.nextLine();
 		    String s = sc.nextLine();
+		    s = sc.nextLine();
 		    System.out.println(s);
 		}
-		
+		sc.close();
     }
     
 }
@@ -38,13 +36,13 @@ class Geeks{
 // { Driver Code Starts.
 
 
-class GFG {
+class GFG2 {
     
     // Driver Code
     public static void main (String[] args) {
 	    
 	       //Creating an object of class Geeks
-	       Geeks g = new Geeks();
+	       Geeks2 g = new Geeks2();
 		
 		   //Calling the IOFunction() of class Geeks
 		   g.IOFunction();
