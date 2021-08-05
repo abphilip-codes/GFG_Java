@@ -1,4 +1,4 @@
-package M1;
+package Lecture;
 // A simple enum example where enum is declared
 // outside any class (Note enum keyword instead of
 // class keyword)

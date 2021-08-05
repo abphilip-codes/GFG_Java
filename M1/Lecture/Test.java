@@ -1,4 +1,4 @@
-package M1;
+package Lecture;
 class Student
 {
     public static void main(String[] args)   

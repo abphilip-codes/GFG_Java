@@ -1,4 +1,4 @@
-package M1;
+package Lecture;
 /* This is a simple Java program.
    FileName : "HelloWorld.java". */
 class HelloWorld
