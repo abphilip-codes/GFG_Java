@@ -5,10 +5,10 @@
 package Problems;
 import java.util.*;
 
-class GFG {
+class GFG4 {
 	public static void main (String[] args) {
 		
-		Geeks g = new Geeks();
+		Geeks4 g = new Geeks4();
 		g.getInput();
 	}
 }// } Driver Code Ends
@@ -18,7 +18,7 @@ class GFG {
 
 //Complete the function
 //Take input for a and s 
-class Geeks {
+class Geeks4 {
 	void getInput () {
 		
 	    Scanner sc = new Scanner(System.in);
