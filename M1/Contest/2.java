@@ -14,14 +14,11 @@ class GfGFunction1{
     // N : number inscribed on the last stone.
     // X : number on which we have to reach
     void findJumps(long N, long X){
-        
-        // Your code goes here
         if(N%2!=0)
         N--;
         long ind=(long)(X/2);
         long sri=(long)((N-X+1)/2);
-        System.out.println(Math.min(ind,sri));
-        
+        System.out.println(Math.min(ind,sri));    
     }
     
 }
