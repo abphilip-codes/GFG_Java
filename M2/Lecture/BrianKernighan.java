@@ -1,5 +1,4 @@
 package Lecture;
-import java.io.*;
 
 class countSetBits {
     static int count(int n)
