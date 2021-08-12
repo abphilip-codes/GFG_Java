@@ -14,14 +14,16 @@ import java.util.*;
 */
 class Geeks3 {
     void interchange(int a[][],int r, int c){
+        int temp;
         for(int i=0;i<r;i++){
-            System.out.print(a[i][c-1] + " ");
-            for(int j=1;j<c-1;j++){
+            temp=a[i][c-1];
+            a[i][c-1]=a[i][0];
+            a[i][0]=temp;
+            for(int j=0;j<c;j++){
                 System.out.print(a[i][j] + " ");
             }
-            System.out.print(a[i][0] + " ");
             System.out.println();
-        } 
+        }
     }
 }
 
