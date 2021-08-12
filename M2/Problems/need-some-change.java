@@ -19,10 +19,10 @@ class Geeks1{
             a[i]=a[i+2];
             a[i+2]=temp;
         }
-        for(i=0;i<n-1;i++){
+        for(i=0;i<n;i++){
             System.out.print(a[i]+" ");
         }
-        System.out.print(a[n-1]);
+        System.out.println();
     }
 }
 
