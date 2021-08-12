@@ -1,4 +1,3 @@
-
 package Lecture;
 class GFG
 {

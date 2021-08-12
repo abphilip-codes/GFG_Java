@@ -1,4 +1,3 @@
-
 from itertools import combinations
 def find(lst, n):
     print('YES' if [1 for r in range(1, len(lst) + 1) 
