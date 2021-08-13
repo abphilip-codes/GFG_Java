@@ -5,7 +5,6 @@ package Problems;
 import java.util.*;
 class GFG7
 {
-    
 	public static void main (String[] args)
 	{
 	     //Taking input using Scanner class
