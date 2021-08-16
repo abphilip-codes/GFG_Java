@@ -33,16 +33,20 @@ class GFG10
 class Geeks10 {
     int countSumSubsets(int arr[], int n)
     {
-        int ans=0;
-        for (int z=0;z<n;z++) {
-            int s=0;
-            for (int y=z;y<n;y++) {
-                s+=arr[y];
-                if(s%2==0)
-                    ans++;
+        long z=(long)Math.pow(2,n);
+        int x,y,k,ans=0;
+        for(x=0;x<z;x++)
+        {
+            k=0;
+            for(y=0;y<n;y++)
+            {
+                if((x&(1<<y))>0)
+                    k=k+arr[y];
             }
+            if(k%2==0 & k!=0)
+                ans++;
         }
-        return (ans);
+        return ans;
     }
 }
 
