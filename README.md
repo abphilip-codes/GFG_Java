@@ -1,2 +1,1 @@
-# GeeksForGeeks: Java
-
+# GFG: Java
